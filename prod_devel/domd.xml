@@ -7,6 +7,7 @@
 
     <default remote="github" sync-j="10" sync-c="true" />
 
+    <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="e6e464c9ed9266ce46452f953c1bdcb0e7b2d95f" upstream="thud"/>
     <project name="renesas-rcar/meta-renesas" path="meta-renesas" upstream="thud-dev" revision="14fe2b63e6c580bd48446317a9430e6f035a5895" />
     <project remote="yoctoproject" name="meta-virtualization" path="meta-virtualization" upstream="thud" revision="9e8c0c96b443828a255e7d6ca6291598347672ac" />
     <project remote="yoctoproject" name="poky" path="poky" upstream="thud" revision="e7f0177ef3b6e06b8bc1722fca0241fef08a1530" />
