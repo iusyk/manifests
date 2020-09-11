@@ -62,38 +62,38 @@
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3" />
-  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="5aecbd92ce06c179efa9dca9127c09219018bc4b" upstream="thud-v3.15.0"/>
+  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" />
+  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="5aecbd92ce06c179efa9dca9127c09219018bc4b" upstream="thud-v3.15.0"/>
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="27dadcfc7bc0de70328b02fecb841608389d22fc" upstream="thud"/>
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="27dadcfc7bc0de70328b02fecb841608389d22fc" upstream="thud"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"/>
+  <project name="meta-freescale" path="meta-freescale" remote="yocto" revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"/>
 
   <!-- Boundary devices bsp layer -->
-  <project name="boundarydevices/meta-boundary" path="bsp/meta-boundary" remote="github" revision="4ea73c57f125ff0b8c3e17e5cc5d07b6168bbd6c" upstream="master"/>
+  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="4ea73c57f125ff0b8c3e17e5cc5d07b6168bbd6c" upstream="master"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="2da08ed8b2f4a29fb7d45e769171ea5bb79cf0b2" upstream="thud"/>
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="2da08ed8b2f4a29fb7d45e769171ea5bb79cf0b2" upstream="thud"/>
 
   <!-- rpi 2, 3 and 3 B+ -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="c71d79efc5a06a0c896c278c94f5b14413bb4d69" upstream="thud"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="c71d79efc5a06a0c896c278c94f5b14413bb4d69" upstream="thud"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="8ac86cd465d73da78e24620e4695176138d17fc3" upstream="thud"/>
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="8ac86cd465d73da78e24620e4695176138d17fc3" upstream="thud"/>
 
   <!-- Altera SOCFPGA platform -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="f07030bb6ff2062031e06efe9831b76c7250b32e" upstream="thud"/>
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="f07030bb6ff2062031e06efe9831b76c7250b32e" upstream="thud"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="9b837baf403ab7c38de2e05e8c3183e1ab54cfd3" upstream="thud"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="fd7ca0ca47c7095ced62a5a7cdef040dff87fb76" upstream="master"/>
+  <project name="SanCloudLtd/meta-sancloud" path="meta-sancloud" remote="github" revision="9b837baf403ab7c38de2e05e8c3183e1ab54cfd3" upstream="thud"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="fd7ca0ca47c7095ced62a5a7cdef040dff87fb76" upstream="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
-  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="702a0e826e87796aefa97abc1de0217d3775fd13" upstream="thud-agl"/>
+  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="meta-synopsys" remote="github" revision="702a0e826e87796aefa97abc1de0217d3775fd13" upstream="thud-agl"/>
 
    <!-- Xen-troops specific things -->
   <project remote="epam" name="epmd-aepr/meta-aos" path="meta-aos" upstream="master" revision="master" />
