@@ -4,6 +4,13 @@
     <remote name="yoctoproject" fetch="git://git.yoctoproject.org" />
     <remote name="openembedded" fetch="git://git.openembedded.org" />
     <remote name="linaro" fetch="git://git.linaro.org" />
+    !-- remote servers to query -->
+    <remote name="agl"
+	    fetch="https://gerrit.automotivelinux.org/gerrit/"
+	    review="https://gerrit.automotivelinux.org/gerrit/"
+	    pushurl="ssh://gerrit.automotivelinux.org:29418" 
+	    revision="refs/tags/halibut/8.0.0"
+    />
 
     <default remote="github" sync-j="10" sync-c="true" />
 
@@ -16,4 +23,17 @@
     <project name="kraj/meta-clang" path="meta-clang" upstream="thud" revision="7933fd19fe1df357df0532d3983c10d014e8d5f6" />
     <project name="CogentEmbedded/meta-rcar" path="meta-rcar" revision="e9bf7907fcf1f3013705de10a37b7561f6660e3c" upstream="thud-v3.21.0" />
 
+    <!-- AGL things. --> 
+    <project remote="agl" name="AGL/meta-agl" path="meta-agl" />
+    <project remote="agl" name="AGL/meta-agl-cluster-demo" path="meta-agl-cluster-demo" />
+    <project remote="agl" name="AGL/meta-agl-demo" path="meta-agl-demo" />
+    <project remote="agl" name="AGL/meta-agl-devel" path="meta-agl-devel" />
+    <project remote="agl" name="AGL/meta-agl-extra" path="meta-agl-extra" />
+    <project remote="agl" name="AGL/meta-agl-telematics-demo" path="meta-agl-telematics-demo" />
+
+    <!-- Qt things -->
+    <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="81937713f774d7dea854b22987b3ef1ab1f1cdbe" upstream="thud"/>
+
+    <project remote="github" name="xen-troops/meta-xt-agl-base" path="meta-xt-agl-base" upstream="master" revision="master" />
+   
 </manifest>
