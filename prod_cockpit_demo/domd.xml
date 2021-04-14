@@ -25,7 +25,6 @@
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
   <project name="AGL/meta-agl-telematics-demo" path="meta-agl-telematics-demo" />
-  <project name="AGL/meta-agl-profile-cluster-qt5" path="meta- meta-agl-profile-cluster-qt5" />
 
 
   <!-- ALL EXTERNAL REPOS BELOW USE A FIXED REVISION ! -->
